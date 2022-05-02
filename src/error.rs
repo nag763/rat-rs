@@ -1,20 +1,11 @@
-use std::fmt;
-
-#[derive(Debug)]
+/// Common errors that can be thrown on runtime
+///
+/// It mostly handles external libraries errors
+#[derive(Debug, Display)]
 pub enum CliError {
+    /// An error sent on request to an external library
+    #[display(fmt = "{}", _0)]
     RequestError(String),
-}
-
-impl fmt::Display for CliError {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        write!(
-            f,
-            "{}",
-            match &*self {
-                CliError::RequestError(reason) => reason,
-            }
-        )
-    }
 }
 
 impl std::error::Error for CliError {}
