@@ -1,3 +1,8 @@
+[![crates-dl](https://img.shields.io/crates/v/rat-rs)](https://crates.io/crates/rat-rs)
+[![rat-stars](https://img.shields.io/github/stars/nag763/rat-rs?style=social)](https://github.com/nag763/rat-rs/stargazers)
+[![rat-license](https://img.shields.io/crates/l/rat-rs)](https://github.com/nag763/rat-rs/blob/main/LICENSE)
+[![gh-issues](https://img.shields.io/github/issues/nag763/rat-rs)](https://github.com/nag763/rat-rs/issues)
+
 # rat-rs
 
 A simple cli tool to fetch transports schedules on the Ile-de-France région
