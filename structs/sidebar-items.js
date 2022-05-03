@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Response","The overall response, contains our response result and other fields"],["ResponseResult","The result inside the response from the distant endpoint"],["Schedule","The fetched schedules"]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["API_URI","Our API endpoint"]],"fn":[["main",""],["run_main",""]],"mod":[["args","Application arguments"],["error","Application errors"],["structs","Structures used by the CLI"],["utils","Application tools"]]});

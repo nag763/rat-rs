@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["slugify","This method transforms a string into a slug to request the api"]],"struct":[["REPLACEABLE","The regex used to slugify our inputs"]]});
