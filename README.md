@@ -5,7 +5,7 @@
 
 # rat-rs
 
-<img src=".github/logo.png" alt="drawing" width="300" style="margin-left:auto;margin-right:auto;display:block;"/>
+<img src="https://raw.githubusercontent.com/nag763/rat-rs/main/.github/logo.png" alt="drawing" width="300" style="margin-left:auto;margin-right:auto;display:block;"/>
 
 A simple cli tool to fetch transports schedules on the Ile-de-France région
 
