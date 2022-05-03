@@ -5,6 +5,8 @@
 
 # rat-rs
 
+<img src=".github/logo.png" alt="drawing" width="300" style="margin-left:auto;margin-right:auto;display:block;"/>
+
 A simple cli tool to fetch transports schedules on the Ile-de-France région
 
 ## Main assets
@@ -88,9 +90,9 @@ usr@penguin:$ rat-rs rer a "Auber" ar
 21:16 direction Boissy-Saint-Leger
 21:23 direction Marne-la-Vallee Chessy
 21:31 direction Boissy-Saint-Leger
-21:38 direction Marne-la-Vallee Chessy 
+21:38 direction Marne-la-Vallee Chessy
 ```
 
 ## Special thanks
 
-* This tool uses [Pierre Grimaud's RATP API](https://github.com/pgrimaud/horaires-ratp-api), support him if you like this project. 
+* This tool uses [Pierre Grimaud's RATP API](https://github.com/pgrimaud/horaires-ratp-api), support him if you like this project.
