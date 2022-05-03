@@ -1,4 +1,3 @@
-
 /// The result inside the response from the distant endpoint
 #[derive(serde::Serialize, serde::Deserialize, Debug)]
 pub struct ResponseResult {
@@ -22,7 +21,6 @@ pub struct Response {
 pub struct Schedule {
     /// A message contains either a time (ie 11mn) or a temporal indication (ie coming soon)
     message: String,
-    /// The destination 
+    /// The destination
     destination: String,
 }
-

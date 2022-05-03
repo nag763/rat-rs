@@ -13,17 +13,15 @@ mod structs;
 /// Gather all the arguments that can be received as input of the application
 mod args;
 
-
 /// Application tools
 ///
 /// Contains all the functions and tools that can be used by the CLI at the runtime
 mod utils;
 
-
-use structs::{Schedule, Response};
 use args::CliArgs;
-use utils::slugify;
 use clap::Parser;
+use structs::{Response, Schedule};
+use utils::slugify;
 
 #[macro_use]
 extern crate log;

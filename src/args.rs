@@ -1,4 +1,3 @@
-
 #[derive(clap::Parser, Debug)]
 #[clap(
     name = "rat-rs",

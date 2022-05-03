@@ -21,3 +21,4 @@ derive_more = "0.99.17"
 serde = { version = "1.0.136", features = ["derive"] }
 regex = "1.5.5"
 lazy_static = "1.4.0"
+unidecode = "0.3.0"
