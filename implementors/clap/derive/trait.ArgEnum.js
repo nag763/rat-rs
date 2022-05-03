@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["rat_rs"] = [{"text":"impl ArgEnum for <a class=\"enum\" href=\"rat_rs/args/enum.TransportType.html\" title=\"enum rat_rs::args::TransportType\">TransportType</a>","synthetic":false,"types":["rat_rs::args::TransportType"]},{"text":"impl ArgEnum for <a class=\"enum\" href=\"rat_rs/args/enum.WayType.html\" title=\"enum rat_rs::args::WayType\">WayType</a>","synthetic":false,"types":["rat_rs::args::WayType"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

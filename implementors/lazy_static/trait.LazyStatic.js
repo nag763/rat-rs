@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["rat_rs"] = [{"text":"impl <a class=\"trait\" href=\"https://docs.rs/lazy_static/1.4.0/lazy_static/trait.LazyStatic.html\" title=\"trait lazy_static::LazyStatic\">LazyStatic</a> for <a class=\"struct\" href=\"rat_rs/utils/struct.REPLACEABLE.html\" title=\"struct rat_rs::utils::REPLACEABLE\">REPLACEABLE</a>","synthetic":false,"types":["rat_rs::utils::REPLACEABLE"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

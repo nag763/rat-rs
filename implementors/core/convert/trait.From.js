@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["rat_rs"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.57.0/core/convert/trait.From.html\" title=\"trait core::convert::From\">From</a>&lt;<a class=\"struct\" href=\"https://docs.rs/reqwest/0.11.10/reqwest/error/struct.Error.html\" title=\"struct reqwest::error::Error\">Error</a>&gt; for <a class=\"enum\" href=\"rat_rs/error/enum.CliError.html\" title=\"enum rat_rs::error::CliError\">CliError</a>","synthetic":false,"types":["rat_rs::error::CliError"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
