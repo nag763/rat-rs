@@ -6,6 +6,7 @@ rust-version = "1.62.0"
 authors = ["nag763 <loic.labeye@tutanota.de>"]
 license = "MIT"
 description = "A simple cli tool to fetch transports schedules on the Ile-de-France région"
+documentation = "https://nag763.github.io/rat-rs/"
 repository = "https://github.com/nag763/rat-rs"
 readme = "./README.md"
 categories = ["command-line-utilities" ]
