@@ -44,7 +44,7 @@ Might come soon
 
 ```
 usr@penguin:$ rat-rs --help
-rat-rs 0.1
+rat-rs 0.1.2
 LABEYE Loïc <loic.labeye@pm.me>
 This tool has for purpose to show the schedules of the parisians transports for the given arguments.
 
@@ -56,7 +56,7 @@ ARGS:
                         noctilien]
     <CODE>              Code of the transport
     <STATION>           Station where you would like to have the next schedules
-    <WAY>               What direction you want to go [possible values: a, r, ar]
+    <WAY>               What direction you want to go [default: ar] [possible values: a, r, ar]
 
 OPTIONS:
     -h, --help       Print help information

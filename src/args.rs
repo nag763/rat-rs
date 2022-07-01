@@ -2,7 +2,7 @@
 #[clap(
     name = "rat-rs",
     author = "LABEYE Loïc <loic.labeye@pm.me>",
-    version = "0.1",
+    version = "0.1.2",
     about = "This tool has for purpose to show the schedules of the parisians transports for the given arguments.",
     after_help = "All of the data reported by this tool belongs to the RATP."
 )]

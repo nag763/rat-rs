@@ -51,7 +51,7 @@
 //!                         noctilien]
 //!     <CODE>              Code of the transport
 //!     <STATION>           Station where you would like to have the next schedules
-//!     <WAY>               What direction you want to go [possible values: a, r, ar]
+//!     <WAY>               What direction you want to go [default: ar] [possible values: a, r, ar]
 //!
 //! OPTIONS:
 //!     -h, --help       Print help information
