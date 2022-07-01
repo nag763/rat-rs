@@ -15,7 +15,7 @@ pub struct CliArgs {
     /// Station where you would like to have the next schedules
     pub(crate) station: String,
     /// What direction you want to go
-    #[clap(arg_enum)]
+    #[clap(arg_enum, default_value_t = WayType::default())]
     pub(crate) way: WayType,
 }
 
@@ -36,7 +36,7 @@ pub(crate) enum TransportType {
 }
 
 /// A way type is similar to a direction
-#[derive(clap::ArgEnum, Debug, Clone, Display)]
+#[derive(clap::ArgEnum, Debug, Clone, Display, Default)]
 #[display(fmt = "{}")]
 pub(crate) enum WayType {
     #[display(fmt = "A")]
@@ -45,5 +45,6 @@ pub(crate) enum WayType {
     R,
     /// A+R means any direction
     #[display(fmt = "A+R")]
+    #[default]
     AR,
 }
