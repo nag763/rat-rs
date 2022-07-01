@@ -39,7 +39,7 @@
 //!
 //! ```
 //! usr@penguin:$ rat-rs --help
-//! rat-rs 0.1
+//! rat-rs 0.1.2
 //! LABEYE Loïc <loic.labeye@pm.me>
 //! This tool has for purpose to show the schedules of the parisians transports for the given arguments.
 //!
@@ -117,6 +117,7 @@ use args::CliArgs;
 use clap::Parser;
 use structs::{Response, Schedule};
 use utils::slugify;
+use std::process::{ExitCode, Termination};
 
 #[macro_use]
 extern crate log;
@@ -129,16 +130,16 @@ extern crate lazy_static;
 const API_URI: &str = "https://api-ratp.pierre-grimaud.fr/v4/schedules";
 
 #[tokio::main]
-async fn main() {
+async fn main() -> ExitCode {
     env_logger::init();
-    std::process::exit(match run_main().await {
-        Ok(_) => 0,
+    match run_main().await {
+        Ok(_) => ExitCode::SUCCESS,
         Err(err) => {
-            eprintln!("An error happened : {}", err);
-            eprintln!("The application finished with return code 1");
-            1
+            eprintln!("An error happened : {}", &err);
+            eprintln!("The application finished with return code {}", &err.error_code());
+            err.report()
         }
-    });
+    }
 }
 
 async fn run_main() -> Result<(), error::CliError> {
